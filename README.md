@@ -1,2 +1,1 @@
-# mxmnci.com
- My personal website
+# My Personal Website
