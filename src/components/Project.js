@@ -17,7 +17,7 @@ const Project = (props) => {
       </div>
       <div className="p-4 overflow-hidden">
         <h3 className="text-lg font-bold">{title}</h3>
-        <p className="mt-2 text-gray-500 text-sm">{description}</p>
+        <p className="mt-2 text-gray-600 text-sm">{description}</p>
         <div className="flex flex-wrap mt-3 -mx-1">
           {badges.map((badge) => {
             const color = badge.color.toLowerCase();

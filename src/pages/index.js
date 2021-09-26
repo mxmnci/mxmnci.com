@@ -8,8 +8,8 @@ const index = () => {
     <Layout>
       <header className="flex items-center mt-12 space-x-4 justify-between">
         <div>
-          <h1 className="text-4xl font-bold">Max Monciardini</h1>
-          <h3 className="text-md text-gray-500 font-medium mt-2">
+          <h1 className="text-4xl font-bold">Max Monciardini 👋</h1>
+          <h3 className="text-md text-gray-600 font-medium mt-2">
             Aspiring Full-Stack Web Developer focused on Typescript, React,
             Node.js & PostgreSQL
           </h3>
@@ -98,7 +98,7 @@ const index = () => {
         </section>
         <section className="mt-8">
           <h2 className="text-2xl font-bold">Contact Me</h2>
-          <div className="text-lg text-gray-500">
+          <div className="text-lg text-gray-600">
             If you are interested in working with me please email me at{" "}
             <a className="text-black font-bold" href="mailto:max@mxmnci.com">
               max@mxmnci.com
