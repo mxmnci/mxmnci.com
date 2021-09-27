@@ -18,7 +18,7 @@ const index = () => {
         </div>
         <div className="flex items-center justify-end">
           <StaticImage
-            className="w-20 sm:w-24 rounded-full"
+            className="w-20 sm:w-24 rounded"
             src="../images/me.jpg"
             alt=""
           />

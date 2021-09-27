@@ -37,16 +37,93 @@ const Project = (props) => {
           {badges &&
             badges.map((badge) => {
               const color = badge.color.toLowerCase();
-              return (
-                <span
-                  className={classNames(
-                    "badge",
-                    `bg-${color}-100 text-${color}-800`
-                  )}
-                >
-                  {badge.title}
-                </span>
-              );
+              switch (color) {
+                case "red":
+                  return (
+                    <span
+                      className={classNames("badge", `bg-red-100 text-red-800`)}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "green":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-green-100 text-green-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "blue":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-blue-100 text-blue-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "yellow":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-yellow-100 text-yellow-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "gray":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-gray-100 text-gray-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "pink":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-pink-100 text-pink-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                case "purple":
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-purple-100 text-purple-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+                default:
+                  return (
+                    <span
+                      className={classNames(
+                        "badge",
+                        `bg-gray-100 text-gray-800`
+                      )}
+                    >
+                      {badge.title}
+                    </span>
+                  );
+              }
             })}
         </div>
         <motion.div
