@@ -25,7 +25,7 @@ const index = () => {
       <article>
         <section className="mt-8">
           <h2 className="text-2xl font-bold">Projects</h2>
-          <div className="flex flex-row mt-4 space-x-3 items-stretch">
+          <div className="flex flex-row mt-4 space-x-3">
             <Project
               backgroundColor="#353535"
               title="Central Valley Engineering & Asphalt, Inc."
