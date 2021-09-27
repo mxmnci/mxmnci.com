@@ -32,7 +32,7 @@ const index = () => {
               backgroundColor="#353535"
               title="Central Valley Engineering & Asphalt, Inc."
               link="https://cenvalley.com"
-              githubLink="https://github.com/maxmonciardini/cenvalley.com"
+              githubLink="https://github.com/maxmonciardini/cenvalley-client"
               logo={
                 <StaticImage
                   className="w-1/3"
