@@ -19,7 +19,7 @@ const Footer = () => {
             <ul className="text-gray-600">
               <li key={1}>
                 <a
-                  href="https://github.com/maxmonciardini"
+                  href="https://github.com/mxmnci"
                   target="_blank"
                   className="flex items-center space-x-2"
                 >
